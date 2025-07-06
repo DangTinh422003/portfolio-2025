@@ -37,8 +37,8 @@ const Homepage = () => {
         >
           <div
             className={`
-              relative size-[14rem] overflow-hidden rounded-full shadow-lg
-              lg:rounded-2xl
+              border-primary relative size-[14rem] overflow-hidden rounded-full border-2 shadow-lg
+              lg:rounded-2xl lg:border-none
               xl:h-[32rem] xl:w-full
             `}
           >
@@ -120,7 +120,7 @@ const Homepage = () => {
           >
             Hi, my name is Dang Tinh, but you can call me Dustin. I am a
             full-stack web developer with over 3 years of experience,
-            specializing in backend development with NestJS and frontend
+            specializing in backend development with Nest.js and frontend
             development with Next.js. I have worked on various projects, from
             small startups to enterprise applications, and always aim for
             high-quality, maintainable code. I am passionate about exploring new

@@ -79,7 +79,7 @@
 }
 
 .dark {
-  --background: oklch(0.13 0.028 261.692);
+  --background: oklch(6.328% 0.01316 233.535);
   --foreground: oklch(0.985 0.002 247.839);
   --card: oklch(0.21 0.034 264.665);
   --card-foreground: oklch(0.985 0.002 247.839);
@@ -119,6 +119,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 @utility container {
@@ -127,4 +130,8 @@
   @variant xl {
     padding-inline: 8rem;
   }
+}
+
+@theme {
+  --color-gray: #2b2a2a;
 }

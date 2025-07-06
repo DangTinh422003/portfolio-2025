@@ -4,6 +4,7 @@ import clsx from "clsx";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 
+import AppSidebar from "@/components/AppSidebar";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 
@@ -28,11 +29,12 @@ export default function RootLayout({
       <body className={clsx(poppins.className)}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
           <Toaster />
+          <AppSidebar />
           {children}
         </ThemeProvider>
       </body>
