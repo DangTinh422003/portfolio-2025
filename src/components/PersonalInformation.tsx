@@ -104,6 +104,7 @@ const PersonalInformation = () => {
           />
         </motion.div>
       </div>
+
       {/* RIGHT COL */}
       <div>
         <HoverEffect
@@ -121,10 +122,7 @@ const PersonalInformation = () => {
 const Box = ({ count, label }: Info) => {
   return (
     <div
-      className={`
-        size-full min-h-52 cursor-pointer rounded-xl border border-solid border-[#424242]/10 p-9 shadow-xl transition-all duration-300
-        hover:scale-[1.03]
-      `}
+      className={`transition-fade size-full min-h-52 cursor-pointer rounded-xl border border-solid border-[#424242]/10 p-9 shadow-xl`}
     >
       <p className="text-primary text-6xl font-bold">
         <span>{count}</span>

@@ -1,5 +1,7 @@
 import { type ReactNode } from "react";
 
+import { type Project } from "@/components/Projects";
+
 export interface Info {
   count: number;
   label: ReactNode;
@@ -138,5 +140,35 @@ export const EXPERIENCES = [
     subTitle: "Agest Vietnam",
     description:
       "Participated in building and developing TestArchitect, an automation testing software, migrating it from on-premise to cloud.",
+  },
+];
+
+export const PROJECTS: Array<Project> = [
+  {
+    id: "1",
+    name: "PORTFOLIO",
+    description:
+      "Project Description Of Personal Information, Including Skills And Programming Languages. Experiences And Jobs During The Time As A Student, Including Information About Other Personal Projects. Finally, Include Contact Information.",
+    createdAt: "Apr 19, 2022",
+    role: "Frontend Developer",
+    frontend: [
+      "Next.js",
+      "TypeScript",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Framer Motion",
+    ],
+    backend: ["N/A"],
+    source: "https://github.com/DangTinh422003/portfolio-2025",
+    demo: "https://project1.demo.com",
+    thumbnail:
+      "https://images.unsplash.com/photo-1742505709415-76b15647ae64?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    images: [
+      "https://images.unsplash.com/photo-1742505709415-76b15647ae64?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1749760305507-e66205164a31?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1749497683197-ae96f3cb92f4?q=80&w=1518&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1751442185664-0c84da01a4ff?q=80&w=1655&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1749740429722-fed0e4e9cf15?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ],
   },
 ];

@@ -122,6 +122,9 @@
   ::-webkit-scrollbar {
     display: none;
   }
+  .transition-fade {
+    @apply transition-all duration-300 ease-in-out;
+  }
 }
 
 @utility container {
